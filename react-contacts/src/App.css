@@ -1,0 +1,201 @@
+/* stylle for header */
+.NavBar {
+  padding-top: 1%;
+  width: 100%;
+  display: flex;
+}
+.Logo-1 {
+  margin-left: 8%;
+}
+.Top-bar {
+  margin-left: 10%;
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+.Address {
+  font-family: 'Muller Regular';
+  color: #a9a9a9;
+  font-size: 16pt;
+  margin-top:  0.5%;
+  display: inline-block;
+}
+
+.Geoposs {
+  margin-top: 0.5%;
+  padding-right: 0.5%;
+  height: 20px;
+}
+.Works {
+  margin-top:  0.5%;
+  font-family: 'Muller Regular';
+  color: #a9a9a9;
+  font-size: 16pt;
+  display: inline-block;
+}
+.Time {
+  margin-top: 0.5%;
+  padding-left: 2.6%;
+  padding-right: 0.5%;
+  height: 20px;
+}
+.Social {
+  margin-left: 6.4%;
+  display: flex;
+}
+.Social-li {
+  margin-right: 30%;
+}
+.Tel {
+  padding-left: 7%;
+  font-family: 'Bebas Neue Bold';
+  font-size: 24pt;
+  color: #ff3f5a;
+}
+.Bot-bar {
+  width: 100%;
+  position: absolute;
+  margin-top: 4.4%;
+  padding-left: 21.3%;
+}
+
+.Nav-menu {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 4%;
+  padding-right: 11.5%;
+}
+
+.Bot-ul {
+  display: flex;
+  font-family: 'Muller Bold', serif;
+  font-size: 16pt;
+}
+
+.Menu {
+  margin-right: 4.4%;
+}
+.Menu a {
+  color: #000000;
+}
+.Menu a:hover  {
+    color: #0174d3;
+    border-bottom: 4px solid #0174d3;
+    padding-bottom: 5px;
+
+}
+.Menu a:active {
+  color: #0174d3;
+  border-bottom: 4px solid #0174d3;
+  padding-bottom: 5px;
+}
+
+/* stylle for content */
+.Content {
+  position: absolute;
+  width: 100%;
+  background-color: #f0f3f8;
+  height: auto;
+}
+.Content h1 {
+  margin-top: 7%;
+  margin-left: 8%;
+  font-weight: bold;
+  font-family: 'Bebas Neue Bold';
+  font-size: 48pt ;
+}
+
+.Content-nav {
+  margin-top: 3.5%;
+  margin-left: 8%;
+  font-family: 'Muller Light';
+  font-size: 14pt;
+  margin-bottom: 4%;
+}
+
+.Content-nav span {
+  color: #0174d3;
+}
+
+.Contacts-content {
+  width: 100%;
+  background-color: #fff;
+  height: 20%;
+
+}
+.Contacs-bar {
+  width: 32%;
+  padding-top: 4%;
+  margin-left: 8%;
+  display: inline-block;
+
+ 
+}
+
+.Icon-bar {
+  height: 5%;
+  padding-bottom: 4%;
+}
+
+
+.Contacs-bar p {
+  font-family: 'Muller Regular';
+  font-size: 16pt;
+  color: #0174d3;
+  padding-bottom: 2%;
+  margin-left: 10%;
+}
+.Contacs-bar span {
+  font-family: 'Muller Medium';
+  font-size: 18pt;
+  color: #000;
+  margin-left: 10%;
+}
+.Contacs-bar img{
+  position: absolute;
+  align-items: center;
+}
+.Map-content {
+  position:relative;
+ display: inline-block;
+ top: -190px;
+margin-bottom: -220px;
+}
+
+.Size-maps {
+  width: 800px;
+  height: 600px;
+}
+
+.Form-content {
+  margin: 5% 11.5% 0% 8%;
+  border-radius: 9px 9px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  width: 85%;
+  background: rgb(255,255,255);
+  background: linear-gradient(150deg, rgba(255,255,255,1) 70%, rgba(45,91,154,1) 30%);
+  height: 400px;
+} 
+
+.Form-content-left {
+  width: 44%;
+  float: left;
+  margin-left: 4%;
+}
+
+.Form-content-left h2 {
+  font-family: 'Muller Bold', serif;
+  text-transform: uppercase;
+  font-size: 20pt;
+}
+.Form-content-right {
+  padding-top: 20px;
+  float: right;
+  width: 50%;
+}
+.Form-content-right img {
+  width: 90%;
+  height: 90%;
+}
+
